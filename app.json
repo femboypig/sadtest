@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "My Beautiful App",
+    "slug": "my-beautiful-app",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.myapp.mybeautifulapp",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.myapp.mybeautifulapp",
+      "versionCode": 1
+    },
+    "description": "This is a beautiful app created with Expo and React Native"
+  }
+}
